@@ -1,0 +1,22 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --verbose --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksaifullah/tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksaifullah/tdd/issues"
+  },
+  "homepage": "https://github.com/ksaifullah/tdd#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

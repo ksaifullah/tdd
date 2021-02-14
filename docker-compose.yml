@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  install: &install
+    image: node:alpine
+    volumes:
+      - .:/code
+    working_dir: /code
+    command: sh -c -e "npm install jest --save-dev"
+
+  test:
+    <<: *install
+    command: sh -c -e "npm test"
