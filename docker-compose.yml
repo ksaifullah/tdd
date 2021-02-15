@@ -5,7 +5,7 @@ services:
     volumes:
       - .:/code
     working_dir: /code
-    command: sh -c -e "npm install jest --save-dev"
+    command: sh -c -e "npm install"
 
   test:
     <<: *install
